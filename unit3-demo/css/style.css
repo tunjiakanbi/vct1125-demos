@@ -1,0 +1,42 @@
+@font-face {
+    font-family: pirulen;
+    /* src: url(pirulen\ rg.ttf); */
+    src: url("../fonts/pirulen rg.ttf");
+}
+@font-face {
+    font-family: lemon-milk;
+    /* src: url(pirulen\ rg.ttf); */
+    src: url(../fonts/LEMONMILK-Bold.otf);
+}
+
+h1 {
+    font-family: pirulen;
+    font-weight: bold;
+}
+h1:nth-of-type(2) {
+    font-family: lemon-milk;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 1.5em;
+}
+p {
+    width: 640px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+}
+h1#monoton {
+    font-family: 'Monoton', cursive;
+    font-size: 5em;
+    letter-spacing: 5px;
+    word-spacing: 1em;
+     font-weight: 400;/*remind students to add this */
+}
+
+/* 
+font-family: 'Monoton', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
