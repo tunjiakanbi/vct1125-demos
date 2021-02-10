@@ -102,7 +102,67 @@ section.first:nth-of-type(3) p {
   top: 200px;
   background-color: blanchedalmond;
 }
+
+
+div#content1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0015B0;
+}
+div#content1>section {
+  width: 50%;
+  border: 10px solid #B3AD00;
+  /* border: 20px solid transparent; */
+
+  border-radius: 15px;
+  /* border-image: url('../images/pattern.svg') 50% stretch; */
+  /* border-image: url('../images/pattern.svg') 10% fill; */
+}
+div#content1>section>h1 {
+  letter-spacing: 10px;
+  text-align: center;
+  /* color: #FFF; */
+  font-size: 1.5em;
+}
+div#content1>section>h1>a {
+  text-decoration: none;
+  color: #FFF;
+}
+div#content1>section>h1>a:hover {
+  color: #6CB7B8;
+}
+
+div#content1>section>form {
+  margin-top: 1em;
+}
+div#content1>section>form>input {
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+div#content1>section>form>input:focus {
+  background-color: #6CB7B8;
+}
+div#content1>section>form>input:blur {
+  background-color: #0015B0;
+}
+
+div#content1>section>form>label{
+  font-family: 'Roboto', sans-serif; 
+  color: #FFF917;
+}
+
 /* 
 font-family: 'Monoton', cursive;
 font-family: 'Roboto', sans-serif; 
+
+
+// #6CB7B8 bluegreen
+// #FFFFFF white
+// #0015B0 darkblue
+// #B3AD00  gold
+// #FFF917 yellow
 */

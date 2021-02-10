@@ -1,0 +1,144 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+#content1 {
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    // background-color: #FFF;
+    background: url("../images/cloud.png") top right no-repeat, url("../images/abstract.png") top left no-repeat;
+}
+#content2 {
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    // background-color: #FFF;
+    background: url("../images/cloud.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+#content3 {
+    width: 400px;
+    height: 600px;
+    background-color: red;
+    background-image: url("../images/lonely-japanese-cherry.jpg");
+    background-size: contain;
+    // background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// #myBody {
+//     background: url("../images/lonely-japanese-cherry.jpg") no-repeat center fixed;
+//     background-size: cover;
+// }
+#myImage {
+    background: url("../images/lonely-japanese-cherry.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+#sometext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+#newImage {
+   border: 30px solid red;
+   padding: 40px;
+   color: #fff;
+   background: url("../images/lonely-japanese-cherry.jpg");
+   background-repeat: no-repeat;
+//    background-origin: content-box;
+   background-size: cover;
+}
+
+// #6CB7B8 bluegreen
+// #FFFFFF white
+// #0015B0 darkblue
+// #B3AD00  gold
+// #FFF917 yellow
+
+#content4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    section {
+        // width: 500px;
+        // height: 500px;
+        width: 50%;
+        // height: 50%;
+        height: 90%;
+        margin: 2.5%;
+        background-color: #f00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border-radius: 50%;
+        border-radius: 3em;
+        h1 {
+            font-family: "Monoton", cursive;
+            font-size: 1.5em;
+            letter-spacing: 5px;
+            word-spacing: 1em;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+    section:nth-child(1) {
+        // background-image: linear-gradient(#0015B0,#6CB7B8);
+        // background-image: linear-gradient(to left,#0015B0,#6CB7B8);
+        // background-image: linear-gradient(to bottom left,#0015B0,#6CB7B8);
+        // background-image: linear-gradient(135deg,#0015B0,#6CB7B8);
+        // background-image: linear-gradient(135deg,#0015B0 50%,#6CB7B8 50% 80%,#B3AD00 80%);
+        background-image: linear-gradient(135deg,#0015B0,#6CB7B8,#B3AD00);
+    }
+    section:nth-child(2) {
+        background: radial-gradient(circle,#6CB7B8,#0015B0);
+        // background: radial-gradient(closest-side at 35% 70%,#0015B0,#6CB7B8);
+    }
+}
+
+#content5 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    section {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-family: "Monoton", cursive;
+            font-size: 1.5em;
+            letter-spacing: 5px;
+            word-spacing: 1em;
+            font-weight: 400;
+            color: #fff;
+        }
+    }
+    #third {
+        background-color: rgba(255,255, 0,0.5);
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 99;
+    }
+    #fourth {
+        background-color: rgba(0,255,255, 0.5);
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+        z-index: 1;
+    }
+}
