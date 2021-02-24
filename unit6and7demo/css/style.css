@@ -1,0 +1,49 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; }
+  body div#one {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em; }
+    body div#one figure {
+      height: 100%;
+      padding: 1em;
+      box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.3), 4px 4px 6px 0 rgba(0, 0, 0, 0.5);
+      margin: 0 1em; }
+    body div#one figcaption {
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 2px;
+      font-size: 1.5em;
+      color: #fff;
+      color: gray;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      text-shadow: 2px 2px 4px white;
+      background-color: gray;
+      padding: 0.3em; }
+    body div#one img {
+      width: auto;
+      height: 100%;
+      opacity: 0.5; }
+    body div#one img:hover {
+      opacity: 1; }
+  body div#two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em; }
+    body div#two section {
+      padding: 1em; }
+      body div#two section h1 {
+        margin: 1em 0;
+        writing-mode: vertical-rl; }
+      body div#two section p {
+        margin-left: 2em;
+        width: 300px;
+        word-break: break-word; }
