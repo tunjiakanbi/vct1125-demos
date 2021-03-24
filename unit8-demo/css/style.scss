@@ -1,0 +1,102 @@
+/* Scss Document */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+$black: #000;
+$white: #FFF;
+/* Color Theme Swatches in Hex */
+$Two-jellyfish-on-a-blue-background-1-hex: #0424D9;
+$Two-jellyfish-on-a-blue-background-2-hex: #031CA6;
+$Two-jellyfish-on-a-blue-background-3-hex: #03178C;
+$Two-jellyfish-on-a-blue-background-4-hex: #020F59;
+$Two-jellyfish-on-a-blue-background-5-hex: #3DADF2;
+
+$font-family1: 'Krona One',
+sans-serif;
+$font-family2: 'Montserrat',
+sans-serif;
+
+body {
+    position: relative;
+    background-color: $white;
+
+    header {
+        background-color: $Two-jellyfish-on-a-blue-background-4-hex;
+
+        //        height: 150px;
+        nav {
+            position: relative;
+            z-index: 1;
+            padding: 1em;
+
+            li {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    margin: 0 0.5em;
+                    color: $white;
+                    font-family: $font-family1;
+                    text-transform: uppercase;
+                }
+
+                a:hover {
+                    color: $Two-jellyfish-on-a-blue-background-5-hex;
+                }
+            }
+        }
+
+    }
+
+    main {
+        position: relative;
+        width: 100%;
+        height: 1200px;
+        background-color: $Two-jellyfish-on-a-blue-background-3-hex;
+//        z-index: initial;
+    }
+
+    footer {
+        width: 100%;
+        //        position: fixed;
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        background-color: $Two-jellyfish-on-a-blue-background-1-hex;
+    }
+}
+
+#dropdown {
+    position: relative;
+}
+
+#dropdown-content {
+    display: none;
+//    visibility: hidden;
+    position: absolute;
+    //display: block;
+    width: 150px;
+    z-index: 1;
+    background-color: $Two-jellyfish-on-a-blue-background-4-hex;
+
+    li {
+        //        display: block;
+        padding: 0.25em 0;
+    }
+}
+
+a.dropD:hover #dropdown-content {
+    display: block;
+    background-color: $Two-jellyfish-on-a-blue-background-2-hex;
+}
+//#dropD>#dropdown-content:hover{
+//    display: block;
+//    z-index: 1;
+//    visibility: visible;
+//    background-color: $Two-jellyfish-on-a-blue-background-2-hex;
+//    font-size: 2em;
+//}

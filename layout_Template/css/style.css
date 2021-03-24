@@ -1,0 +1,52 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'gothamThin';
+  src: url("../fonts/Gotham-Thin.otf"); }
+header h1 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  padding: 4px 0; }
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75em 0;
+  background-color: #333; }
+
+nav a {
+  position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-family: gothamThin;
+  padding: 0.75em 2.1em; }
+
+nav a:hover {
+  background-color: #ddd;
+  color: #000; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.column {
+  font-family: 'gothamThin'; }
+  .column p {
+    padding-top: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-size: 0.85em; }
+  .column h3 span {
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em; }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%; } }

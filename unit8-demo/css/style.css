@@ -1,0 +1,54 @@
+/* Scss Document */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+/* Color Theme Swatches in Hex */
+body {
+  position: relative;
+  background-color: #FFF; }
+  body header {
+    background-color: #020F59; }
+    body header nav {
+      position: relative;
+      z-index: 1;
+      padding: 1em; }
+      body header nav li {
+        display: inline-block; }
+        body header nav li a {
+          text-decoration: none;
+          margin: 0 0.5em;
+          color: #FFF;
+          font-family: "Krona One", sans-serif;
+          text-transform: uppercase; }
+        body header nav li a:hover {
+          color: #3DADF2; }
+  body main {
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    background-color: #03178C; }
+  body footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color: #0424D9; }
+
+#dropdown {
+  position: relative; }
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  width: 150px;
+  z-index: 1;
+  background-color: #020F59; }
+  #dropdown-content li {
+    padding: 0.25em 0; }
+
+a.dropD:hover #dropdown-content {
+  display: block;
+  background-color: #031CA6; }
